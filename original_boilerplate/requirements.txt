@@ -10,3 +10,4 @@ python-telegram-bot==12.2.0
 tornado>=6.3.2 # not directly required, pinned by Snyk to avoid a vulnerability
 urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
 websockets>=10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
