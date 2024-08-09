@@ -1,8 +1,12 @@
 yfinance==0.1.55
 pandas==1.1.5
-numpy==1.19.4 
+numpy==1.22.2 
 statsmodels==0.12.1 
 pyotp==2.4.1 
 robin-stocks==1.5.3
 matplotlib==3.3.3
 alpaca-trade-api==0.51.0
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
+websockets>=10.0 # not directly required, pinned by Snyk to avoid a vulnerability
